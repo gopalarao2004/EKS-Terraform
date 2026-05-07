@@ -1,6 +1,6 @@
 cluster_name       = "prod-cluster"
-instance_count     = 2
-instance_size      = "t2.small"
+instance_count     = 1
+instance_size      = "c7i-flex.large"
 region             = "ap-south-1"
 cluster_version    = "1.30" # 1.31
 ami_id             = "ami-003c0d8931dc3f095"#"ami-006a84b3ee80138d1" #ami-0cfd96d646e5535a8
